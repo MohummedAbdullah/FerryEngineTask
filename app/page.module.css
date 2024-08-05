@@ -1,0 +1,87 @@
+.main {
+  padding: 20px;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  margin-bottom: 20px; 
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 1.25rem; 
+  margin-top: 5px; 
+}
+
+.button {
+  padding: 10px 20px; 
+  background-color: #0070f3; 
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s; 
+}
+
+.button:hover {
+  background-color: #005bb5; 
+}
+.button svg {
+  font-size: 18px; 
+  margin-right: 8px; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtersContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.filterItem {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 3px;
+  display:flex;
+  align-items: center;
+  cursor:pointer;
+}
+
+.liveMapView {
+  /* Add any specific styling for the Live Map View text if needed */
+}
+.gridItem1 {
+  border: 1px solid #ccc;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.gridItem2 {
+  padding: 16px;
+}
+
+.gridItem2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Space between cards */
+}
+
+.card {
+  width: 100%; /* Ensures the card takes up the full width of its container */
+  margin-bottom: 16px; /* Space below each card */
+}
+
+.cardHeading {
+  font-weight: bold;
+  margin-bottom: 8px; /* Space below the heading */
+}
